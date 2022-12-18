@@ -8,8 +8,8 @@
  * Text Domain: ele-layout-grid
  * Domain Path: 
  * License: GPLv3
- * Elementor tested up to: 3.8.9
- * Elementor Pro tested up to: 3.8.0
+ * Elementor tested up to: 3.9.1
+ * Elementor Pro tested up to: 3.9.1
  * License URI: http://www.gnu.org/licenses/gpl-3.0
  */
 
