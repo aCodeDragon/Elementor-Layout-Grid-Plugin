@@ -33,7 +33,7 @@ class CD_Ele_Layout_Grid {
 	}
 	 /* enqueue style */
 	  public static function enqueue_style() {
-		wp_register_style( 'cd-layout-grid-style', plugins_url( 'ele-layout-grid/assets/css/main.css') ,'',null,'all');
+		wp_register_style( 'cd-layout-grid-style', plugin_dir_url( __DIR__ ) .'assets/css/main.css' ,'',null,'all');
 		wp_enqueue_style( 'cd-layout-grid-style' );
 	 }
 
@@ -166,7 +166,7 @@ class CD_Ele_Layout_Grid {
 					'size' => 100,
 				],
 				'selectors' => [
-					'html.elementor-html::before' => 'background-image: repeating-linear-gradient(90deg, transparent 0px,transparent {{SIZE}}{{UNIT}}, {{_ele_layout_grid_layout_grid_color.VALUE}} {{SIZE}}{{UNIT}},{{_ele_layout_grid_layout_grid_color.VALUE}} calc({{SIZE}}{{UNIT}}*2));',
+					'html.elementor-html::before' => 'background-image: repeating-linear-gradient(90deg,{{_ele_layout_grid_layout_grid_color.VALUE}} 0px,{{_ele_layout_grid_layout_grid_color.VALUE}} {{SIZE}}{{UNIT}},transparent {{SIZE}}{{UNIT}},transparent calc({{SIZE}}{{UNIT}}*2));',
 				],
 				'condition' => [
 					'_ele_layout_grid_use_layout_grid' => 'yes', 
