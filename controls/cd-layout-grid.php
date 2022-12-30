@@ -142,7 +142,7 @@ class CD_Ele_Layout_Grid {
 					'size' => 10,
 				],
 				'selectors' => [
-					'html.elementor-html::before' => 'background-image: repeating-linear-gradient(to right, {{_ele_layout_grid_layout_grid_color.VALUE}}, {{_ele_layout_grid_layout_grid_color.VALUE}} 1px, transparent 1px, transparent), repeating-linear-gradient(to bottom, {{_ele_layout_grid_layout_grid_color.VALUE}}, {{_ele_layout_grid_layout_grid_color.VALUE}} 1px, transparent 1px, transparent);background-size: {{SIZE}}{{UNIT}} {{SIZE}}{{UNIT}};', 
+					'html.elementor-html::before' => 'background-image: repeating-linear-gradient(to right, {{_ele_layout_grid_layout_grid_color.VALUE}}, {{_ele_layout_grid_layout_grid_color.VALUE}} 1px, transparent 1px, transparent), repeating-linear-gradient(to bottom, {{_ele_layout_grid_layout_grid_color.VALUE}}, {{_ele_layout_grid_layout_grid_color.VALUE}} 1px, transparent 1px, transparent);background-size: {{SIZE}}{{UNIT}} {{SIZE}}{{UNIT}};width:100%;', 
 				],
 				'condition' => [
 					'_ele_layout_grid_use_layout_grid' => 'yes', 
@@ -190,7 +190,7 @@ class CD_Ele_Layout_Grid {
 					'size' => 20,
 				],
 				'selectors' => [
-					'html.elementor-html::before' => 'background-image: repeating-linear-gradient(0deg, transparent 0px,transparent {{SIZE}}{{UNIT}}, {{_ele_layout_grid_layout_grid_color.VALUE}} {{SIZE}}{{UNIT}},{{_ele_layout_grid_layout_grid_color.VALUE}} calc({{SIZE}}{{UNIT}}*2));',
+					'html.elementor-html::before' => 'background-image: repeating-linear-gradient(0deg, transparent 0px,transparent {{SIZE}}{{UNIT}}, {{_ele_layout_grid_layout_grid_color.VALUE}} {{SIZE}}{{UNIT}},{{_ele_layout_grid_layout_grid_color.VALUE}} calc({{SIZE}}{{UNIT}}*2));width:100%;',
 				],
 				'condition' => [
 					'_ele_layout_grid_use_layout_grid' => 'yes', 
